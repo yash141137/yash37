@@ -1,0 +1,349 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       
+           *{
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             padding: 0%;
+             margin: 0pax;
+             box-sizing: border-box;
+        }
+       
+        .navbar {
+            background-color: rgb(167, 83, 246);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 15px;
+            padding-right: 15px;
+            background: linear-gradient(40deg,rgb(7, 7, 105) ,purple,black);
+            border-radius: 20px;
+             
+        }
+       
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            font-size: 19px;
+            color: white;
+            font-weight: 100;
+            margin: 12px;
+        }
+
+        li a:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        button {
+            background-color: white;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80px;
+        }
+
+        button a {
+            color: rgb(167, 83, 246);
+            font-weight: bold;
+            font-size: 14px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+        div img{
+            border: 2px solid black;
+            width: 100%;
+            height: 100%;
+             margin : 7px 0px; 
+            
+        }
+        .in a{
+            font-weight: bolder;
+        }
+        .container{
+            border:2px solid black;
+            height: 300px;
+            display: flex;
+            /* background: linear-gradient(40deg,rgb(7, 7, 105) ,purple,black); */
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+        .box{
+           
+            /* border: 2px solid blue; */
+            margin: 12px;
+            padding: 2px;
+            height: 150px;
+            width: 150px;
+            
+
+        }
+       
+            
+        
+        marquee{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        #box-1 img{
+            margin: auto;
+            transition: background-color 1s ease-in-out ;
+            
+        }
+        #box-1 img:hover{
+            width: 155px;
+            height: 155px;
+               }
+        #box-2 img{
+            margin: auto;
+            transition: background-color 1s ease-in-out ;
+        }
+        #box-2 img:hover{
+            width: 155px;
+            height: 155px;
+               }
+      
+        #box-3 img{
+            margin: auto;
+            transition: background-color 1s ease-in-out ;
+        }
+        #box-3 img:hover{
+            width: 155px;
+            height: 155px;
+               }
+        #box-4 img{
+            margin: auto;
+            transition: background-color 1s ease-in-out ;
+        }
+        #box-4 img:hover{
+            width: 155px;
+            height: 155px;
+               }
+        #box-5 img{
+            margin: auto;
+            transition: background-color 1s ease-in-out ;
+        }
+        #box-5 img:hover{
+            width: 155px;
+            height: 155px;
+               }
+       .box p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:13px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+       }
+       h3{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: black;
+        /* background: linear-gradient(40deg,rgb(7, 7, 105) ,purple,black); */
+        border-radius: 20px;
+
+       }
+       footer{
+        background-color: black;
+        background: linear-gradient(40deg,rgb(7, 7, 105) ,purple,black);
+       }
+       
+        .footercontainer{
+            width: 100%;
+            padding: 50px 30px 20px;
+        }
+        .socialicon{
+             display: flex;
+             justify-content: center;
+        }
+        .socialicon a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .socialicon a i{
+            color: rgb(255, 255, 255);
+            opacity: 0.9;
+            font-size: 1em;
+            
+        }
+        .socialicon a:hover{
+          background-color: rgb(116, 116, 116);   
+        }
+        
+        .footnav {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+            
+            /* background-color: rgb(99, 96, 96); */
+            
+        }
+        /*.footnav ul li a{
+            color: blue;
+            margin: 20px;
+            font-size: 16px;
+            opacity: 0.7;
+            transition: 0.5%;
+            
+        }
+        .footnav ul li a:hover{
+           
+              color: white;
+            opacity: 1%;
+        }*/
+        .footerbottom{
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            background: linear-gradient(40deg,rgb(7, 7, 105) ,purple,black);
+           
+        }
+        .footerbottom p{
+            color: white;
+           
+        }
+
+
+
+       
+    
+
+      
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <nav class="item">
+            <div class="logo"><a href="#">My-WaTCheS</a></div>
+            <ul>
+
+            <li class="in"><a href="index.html">Home</a></li> 
+                <li ><a href="category.html"
+                    target="_blank">Category </a>
+            </li>
+                <li><a href="about.html" target="_blank">Policy</a></li>
+                <button><a href="signup.html " target="_blank">SIGN UP</a></button>
+                <button><a href="login.html" target="_blank">LOG IN</a></button>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <img src="watchposter.jpg">
+    </div>
+    <marquee>/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending-/-Trending</marquee>
+  
+    <div class="container">
+        <div class="box" id="box-1">
+            <img src="watch2.jfif">
+            <p>Fastrack-1850 Minimalists Analog Watch - For Men </p>
+            <p>Rs.1299/-</p>
+        </div>
+        <div class="box" id="box-2">
+            <img src="watch10.jfif">
+            <p>boAt Lunar Seek With 1.39 HD Display Crown & Bluetooth</p>
+            <p>Rs.1149/-</p>
+        </div>
+        <div class="box" id="box-3">
+            <img src="watch4.jfif">
+            <p>La Shades Latest HK9 PRO 2.0 With ChatGpt Amoled Display</p>
+            <p>Rs.1499/-</p>
+        </div>
+        <div class="box" id="box-4">
+            <img src="watch7.jfif">
+            <p>Melbon Pink 18 Pro Watch 1.69" LCD Display</p>
+            <p>Rs.999/-</p>
+        </div>
+        <div class="box" id="box-5">
+            <img src="watch9.jfif">
+            <p>Noise Icon 2 Vista Bluetooth Calling With 1.78"</p>
+            <p>Rs.1699/-</p>
+        </div>
+    </div>
+    <h3>Best Seller</h3>
+    <div class="container">
+        <div class="box" id="box-1">
+            <img src="watch3.jfif">
+            <p>Fastrack-1850 Minimalists Analog Watch - For Men </p>
+            <p>Rs.1899/-</p>
+        </div>
+        <div class="box" id="box-2">
+            <img src="watch5.jfif">
+            <p>boAt Lunar Seek With 1.39 HD Display Crown & Bluetooth</p>
+            <p>Rs.1100/-</p>
+        </div>
+        <div class="box" id="box-3">
+            <img src="watch6.jfif">
+            <p>La Shades Latest HK9 PRO 2.0 With ChatGpt Amoled Display</p>
+            <p>Rs.799/-</p>
+        </div>
+        <div class="box" id="box-4">
+            <img src="watch8.jfif">
+            <p>Melbon Pink 18 Pro Watch 1.69" LCD Display</p>
+            <p>Rs.2099/-</p>
+        </div>
+        <div class="box" id="box-5">
+            <img src="watch17.jfif">
+            <p>APPLE Watch 2 Premium Bluetooth Calling With 1.78"</p>
+            <p>Rs.2699/-</p>
+        </div>
+    </div><br>
+    <footer>
+        <div class="footercontainer">
+            <div class="socialicon">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+            <div class="footnav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Category</a></li>
+                    <li><a href="#">Servies</a></li>
+                    <li><a href="about.html">Privacy&policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+         
+        </div>
+        <div class="footerbottom">
+            <p>copyright &copy; 2024 My-WaTCheS . All rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
